@@ -12,8 +12,9 @@
                 {
                     int rand = r.Next(0, 2);
                     m[i, j] = rand;
-                    Console.WriteLine(m[i, j]);
+                    Console.Write(m[i, j]);
                 }
+                Console.WriteLine();
             }
             return m;
         }
